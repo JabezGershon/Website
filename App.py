@@ -1,6 +1,7 @@
 import requests
 import streamlit as st
 from PIL import Image
+from streamlit_lottie import st_lottie
 st.set_page_config(page_title="AIML - A",page_icon=":🤖:",layout="wide")
 
 with st.container():

@@ -1,3 +1,5 @@
+img_contact_form=Image.open("Images/pancake.png")
+img_lottie_animation=Image.open("Images/peach.png")
 with st.container():
     st.write("---")
     st.header("Food")

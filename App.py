@@ -9,8 +9,6 @@ with st.container():
     st.subheader("Welcome to AIML - A's web portal :wave:")
 
 lottie_coding = "https://lottie.host/d9031a8b-0fce-47db-9b79-5567c89037e9/H4Z3BRmkCm.json"
-img_contact_form=Image.open("Images/pancake.png")
-img_lottie_animation=Image.open("Images/peach.png")
 
 def load_lottieurl(url):
     r = requests.get(url)

@@ -36,19 +36,3 @@ with st.container():
         st.write("[View class notes >](https://www.discord.com)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
-
-
-with st.container():
-    st.write("---")
-    st.header("Contact")
-    st.write("##")
-    contact_form="""<form action="https://formsubmit.co/jabez123jaze@gmail.com" method="POST">
-     <input type="text" name="name" placeholder="Your name" required>
-     <input type="email" name="email" placeholder="Your Email" required>
-     <textarea name="Message" placeholder="Your message" required></textarea>
-     <button type="submit">Send</button></form>"""
-    left_column, right_column = st.columns(2)
-    with left_column:
-        st.markdown(contact_form, unsafe_allow_html=True)
-    with right_column:
-        st.empty()
